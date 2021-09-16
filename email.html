@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>New Mail</title>
+		<script type ="text/javascript" src = "Email.js"> </script>
+	</head>
+
+	<body>
+	<center><h1>New Mail</h1>
+		<form id="New Mail">
+			<div class="container"> 
+				<label><h4>To: </h4></label>
+				<input type="text" placeholder= "Enter To" id="to" required><br>
+			
+				<label><h4>Subject: </h4></label>
+				<input type="text" placeholder= "Enter Subject" id="subject" required><br>
+			
+				<label><h4>Message: </h4></label>
+				<input type="text" placeholder= "Enter Message" id="message" required><br>
+			
+			    <br>
+				<label for="myfile">Attachment :</label>
+				<input type="file" id="myfile" name="myfile">
+				</br>
+				
+				<br><label value="Add More"  for="myfile">Add more Attachment :</label>
+				<input type="file" id="myfile" name="myfile"> </br>
+				
+				<br><button type="submit" id="send" onClick="Send()">Send</button></br>
+			</center>
+			</div>		
+		</form>	
+	</body>
+</html>
